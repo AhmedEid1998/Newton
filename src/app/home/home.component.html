@@ -1,0 +1,58 @@
+<!-- https://localhost:7210/api/Category/Categories -->
+
+<!-- <app-nav></app-nav> -->
+
+<app-header></app-header>
+
+<app-browse-categories></app-browse-categories>
+
+<app-featured-mobiles></app-featured-mobiles>
+
+<div class="container ">
+    <h2 class="sec-title">featured accessories</h2>
+</div>
+
+<div class="container home-crsl">
+    <owl-carousel-o [options]="customOptions">
+    
+      <!-- <ng-container *ngFor="let slide of slidesStore"> 
+        <ng-template carouselSlide [id]="slide.id">
+          <img [src]="slide.src" [alt]="slide.alt" [title]="slide.title">
+        </ng-template>
+      </ng-container> -->
+    
+      <ng-container class="cont-temp">
+        <ng-template class="temp" carouselSlide>
+          <img src="../../assets/FeaturedMobiles/Oppo-Find-N3-1.webp">
+        </ng-template>
+      </ng-container>
+    
+      <ng-container class="cont-temp">
+        <ng-template class="temp" carouselSlide>
+          <img src="../../assets/FeaturedMobiles/Oppo-Find-N3-1.webp">
+        </ng-template>
+      </ng-container>
+    
+      <ng-container class="cont-temp">
+        <ng-template class="temp" carouselSlide>
+          <img src="../../assets/FeaturedMobiles/Oppo-Find-N3-1.webp">
+        </ng-template>
+      </ng-container>
+    
+      <ng-container class="cont-temp">
+        <ng-template class="temp" carouselSlide>
+          <img src="../../assets/FeaturedMobiles/Oppo-Find-N3-1.webp">
+        </ng-template>
+      </ng-container>
+    
+      <ng-container class="cont-temp">
+        <ng-template class="temp" carouselSlide>
+          <img src="../../assets/FeaturedMobiles/Oppo-Find-N3-1.webp">
+        </ng-template>
+      </ng-container>
+    
+    
+    
+    </owl-carousel-o>
+</div>
+
